@@ -1,0 +1,1 @@
+clang++ $1 -std=c++11 -stdlib=libc++ -lSDL2
