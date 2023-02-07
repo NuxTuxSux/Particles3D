@@ -17,7 +17,7 @@ using namespace std;
 #define GLOBAL_FORCES 0
 #define MAX_DIST 490
 
-#define FULLSCREEN 1
+#define FULLSCREEN 0
 #define WINDOW_WIDTH 1480
 #define WINDOW_HEIGHT 1024
 #define WINDOW_DEPTH 800
@@ -25,7 +25,7 @@ using namespace std;
 #define CIRCLES 4
 #define R  3
 
-#define PALETTE_DEPTH
+// #define PALETTE_DEPTH
 #define DELAY 0//20000
 
 
@@ -235,7 +235,7 @@ class Box3D {
     }
 
     void clear() {
-        SDL_SetRenderDrawColor(renderer2D, 245, 245, 245, 255);
+        SDL_SetRenderDrawColor(renderer2D, 15, 15, 15, 255);
         SDL_RenderClear(renderer2D);
         SDL_SetRenderDrawColor(renderer2D, 150, 100, 10, 30);
         
